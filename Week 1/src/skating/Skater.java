@@ -1,7 +1,7 @@
 package skating;
 
 public class Skater {
-
+	
 	private String firstName;
 	private String lastName;
 
@@ -30,4 +30,22 @@ public class Skater {
 		double avg = total / 3;
 		System.out.println(avg);
 	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+
 }
